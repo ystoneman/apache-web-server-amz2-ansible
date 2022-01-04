@@ -1,8 +1,7 @@
 - name: Setting-up webserver
   hosts: all
   tasks:
-- name: Installing httpd software
-        package:
+- name: Installing httpd software package:
                 name: "httpd"
                 state: present
 - name: Starting httpd services
